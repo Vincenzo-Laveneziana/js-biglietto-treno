@@ -10,12 +10,14 @@ body{
   background: #b3324f;
   height: 100vh;
   position: relative;
+  
 }
 
 .container{
   width: 1170px;
   margin: 0 auto;
   height: 100vh;
+  flex-direction: column;
 }
 
 /* Utility */
@@ -38,6 +40,7 @@ body{
 #head_nav{
   position: relative;
 }
+
 .nav{
   position: fixed;
   width: 100%;
@@ -53,6 +56,10 @@ body{
 
 
 /* main */
+.container h1{
+  color: white;
+  padding-bottom: 50px;
+}
 
 .box{
   flex-direction: column;
@@ -67,7 +74,7 @@ body{
 }
 
 .dati {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .dati h3{
@@ -122,10 +129,13 @@ footer{
   text-align: center;
 }
 
-.foot h1{
+.foot h2{
   text-transform: uppercase;
   color: #056767;
+}
 
+.foot span:last-child{
+  font-size: 12px;
 }
 
 /*  */
