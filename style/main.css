@@ -63,6 +63,7 @@ body{
   border-radius: 20px;
   padding: 15px;
   text-align: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .dati {
@@ -91,14 +92,39 @@ body{
   padding: 5px 0;
 }
 
+.button{
+  padding: 15px 0;
+}
+
+.button a{
+  text-decoration: none;
+}
+
+.button h2{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background: #db254c;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
 
 /* footer */
 footer{
   position: fixed;
   bottom: 0;
+  width: 100%;
+  background: white;
+  text-align: center;
 }
 
-.foot{
+.foot h1{
+  text-transform: uppercase;
+  color: #056767;
 
 }
 

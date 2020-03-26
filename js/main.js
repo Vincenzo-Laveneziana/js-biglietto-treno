@@ -44,16 +44,16 @@ if (age < 18){
   document.getElementById("sconto").innerHTML = "Prezzo sconto 20% = " + sconto20 + "€"
 
   console.log("Prezzo Finale con sconto 20% = " + prezzoFinaleSconto20.toFixed(2) + "€");
-  document.getElementById("prezzoFinaleSconto").innerHTML = "Prezzo Finale con sconto 20% = " + prezzoFinaleSconto20 + "€"
+  document.getElementById("prezzoFinale").innerHTML = "Prezzo Finale con sconto 20% = " + prezzoFinaleSconto20 + "€"
  
 }else if (age > 65){
   console.log("Prezzo sconto 40% = " , sconto40.toFixed(2) + "€");
   document.getElementById("sconto").innerHTML = "Prezzo sconto 40% = " + sconto40 + "€"
 
   console.log("Prezzo Finale con sconto 40% = " + prezzoFinaleSconto40.toFixed(2) + "€");
-  document.getElementById("prezzoFinaleSconto").innerHTML = "Prezzo Finale con sconto 40% = " + prezzoFinaleSconto40 + "€"
+  document.getElementById("prezzoFinale").innerHTML = "Prezzo Finale con sconto 40% = " + prezzoFinaleSconto40 + "€"
 }else {
   console.log("Mi dispiace se sei sfigato, ma devi pagare il biglietto per Intero ^_^")
   document.getElementById("sconto").innerHTML = "Mi dispiace se sei sfigato, ma devi pagare il biglietto per Intero ^_^"
-  document.getElementById("prezzoFinaleSconto").innerHTML = "Prezzo finale del biglietto = " + prezzoTot + "€"
+  document.getElementById("prezzoFinale").innerHTML = "Prezzo finale del biglietto = " + prezzoTot + "€"
 }
