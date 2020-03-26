@@ -1,0 +1,105 @@
+/* Generali */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #b3324f;
+  height: 100vh;
+  position: relative;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* Utility */
+
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+}
+
+.v_center{
+  align-items: center;
+}
+
+
+/* Header */
+
+#head_nav{
+  position: relative;
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: white;
+  padding: 5px;
+}
+
+.nav img{
+  width: 200px;
+  padding: 5px;
+}
+
+
+/* main */
+
+.box{
+  flex-direction: column;
+  min-height: 400px;
+  width: 700px;
+  background: white;
+  border: 4px solid #9d9d9d;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.dati {
+  padding: 15px 0;
+}
+
+.dati h3{
+  flex-basis: calc(100% / 2);
+  padding: 5px;
+}
+
+.dati h3:first-child{
+  border-right: 1px solid grey;
+}
+
+.dati h3:last-child{
+  border-left: 1px solid grey;
+}
+
+.calcoli{
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.calcoli h3{
+  padding: 5px 0;
+}
+
+
+/* footer */
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.foot{
+
+}
+
+/*  */
